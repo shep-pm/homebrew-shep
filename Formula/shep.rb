@@ -16,8 +16,8 @@ class Shep < Formula
   # job reads the hash instead of downloading and computing one. GitHub
   # generates archive tarballs on the fly, which is the weaker guarantee of
   # the two.
-  url "https://static.crates.io/crates/shep/shep-0.1.25.crate"
-  sha256 "b06f2b6bd3c3bdf87590a3a7bd9eb4c930d5e78acd2efd02c2f95a37a1d5199d"
+  url "https://static.crates.io/crates/shep/shep-0.1.26.crate"
+  sha256 "01267f3bff0a1540e03c8fb4491f92d10dfc20e385978700a7529181523a410b"
   license any_of: ["Apache-2.0", "MIT"]
 
   livecheck do
